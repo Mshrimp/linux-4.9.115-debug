@@ -11,6 +11,7 @@
 # Copyright (C) 1995-2002 Russell King
 #
 
+LOADADDR ?= 0x60003000
 OBJCOPYFLAGS	:=-O binary -R .comment -S
 
 ifneq ($(MACHINE),)
